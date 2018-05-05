@@ -1,0 +1,159 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: SeaShell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+}
+
+.logo img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 10px;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+  margin-right: 10px;
+}
+
+a {
+  color: seashell;
+}
+
+.mission {
+  display: flex;
+  position: relative;
+  top: 69px;
+  background-image: url("images/img-mission-background.jpg");
+  width: 1200px;
+  height: 700px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+}
+
+.mission .our-mission {
+  color: seashell;
+  width: 1200px;
+  height: 100px;
+  background-color: black;
+}
+
+.mission .our-mission h2 {
+  position: relative;
+  margin: 10px auto;
+}
+
+.mission .our-mission h4 {
+  color: seashell;
+  margin: 5px;
+}
+
+.tea-of-the-month {
+  padding-top: 120px;
+}
+
+.food-drink-1 {
+  display: flex;
+  justify-content: center;
+}
+
+.food-drink-1 img {
+  width: 300px;
+  height: 200px;
+  padding: 0px 25px;
+}
+
+.food-drink-1 h4 {
+  margin-top: 10px;
+}
+
+.food-drink-2 {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.food-drink-2 img {
+  width: 300px;
+  height: 200px;
+  padding: 0px 25px;
+}
+
+.food-drink-2 h4 {
+  margin-top: 10px;
+}
+
+.locations {
+  position: relative;
+  background-image: url("images/img-locations-background.jpg");
+  width: 1200px;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  color: seashell;
+}
+
+
+.locations h2 {
+  align-content: center;
+  position: relative;
+  margin: 80px 0 15px 0;
+  padding-top: 80px;
+}
+
+.addresses {
+  background-color: black;
+  opacity: 1;
+  margin: 0px 20px;
+  display: inline-block;
+  height: auto;
+  width: 300px;
+}
+
+.addresses p {
+  padding-bottom: 20px;
+}
+
+.contact-info {
+  height: 200px;
+  background-color: black;
+}
+
+
+.contact-info h2 {
+  margin-top: 0;
+  padding: 10px;
+}
+
+footer {
+  align-items: center;
+  text-align: left;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  background-color: black;
+}
